@@ -1,0 +1,79 @@
+strong { 
+color: red; 
+}
+
+.carrot { 
+color: orange; 
+}
+
+.spinach { 
+color: green; 
+}
+
+#first { 
+font-style: italic; 
+}
+
+a.homepage:link, a.homepage:visited {
+  padding: 1px 10px 1px 10px;
+  color: #ff0;
+  background: #555;
+  border-radius: 3px;
+  border: 1px outset rgba(50,50,50,.5);
+  font-family: georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+body{
+	background-color: #13577F;
+}
+
+a.homepage:hover, a.homepage:focus, a.homepage:active {
+  color: #ff0;
+  background-color: #667;
+}
+
+div.menu-bar a{
+	color: #ff0;
+}
+
+div.menu-bar ul{
+	color: #ff0;
+	width: 6%;
+	background-color: #555;
+}
+
+div.menu-bar ul ul {
+  font-family: georgia,serif;
+  padding: 1px 1px 1px 1px;
+  color: #ff0;
+  background: #555;
+  border-radius: 5px;
+  border: 1px outset rgba(50,50,50,.5);
+  display: none;
+}
+
+div.menu-bar li:hover > ul {
+  color: #ff0;
+  width: 101%;
+  display: block;
+}
+div.menu-bar2 ul{
+	background: #555;
+	border-radius: 5px;
+	border: 1px outset rgba(50,50,50,.5);
+
+}
+div.menu-bar2 li{
+	display: inline;
+}
+div.menu-bar2 ul ul{
+	display: none;
+}
+div.menu-bar2 li:hover > ul{
+	color: #ff0;
+	width:101%;
+	display: block;
+}
